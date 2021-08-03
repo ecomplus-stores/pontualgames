@@ -1,24 +1,24 @@
 {
-  "store_id": 5048,
-  "name": "pontualgames",
   "domain": "pontualgames.netlify.app",
-  "short_name": "pontualgames",
-  "description": "pontualgames",
-  "primary_color": "#222831",
-  "secondary_color": "#393e46",
-  "bg_color": "#ffffff",
+  "currency_symbol": "R$",
+  "primary_color": "#ca0000",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
   },
+  "bg_color": "#ffffff",
+  "repository": "ecomplus-stores/pontualgames",
   "logo": "/img/uploads/logo.png",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "name": "Pontual Games",
+  "short_name": "Pontual Games",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
+  "mini_logo": "",
+  "favicon": "/img/uploads/favicon.png",
   "country_code": "BR",
-  "repository": "ecomplus-stores/pontualgames"
+  "secondary_color": "#0f0f0f",
+  "icon": "/img/uploads/logo.png",
+  "store_id": 5048,
+  "description": "PONTUAL GAMES LOJA ESPECIALIZADA NA VENDA DE CARTÕES PRÉ PAGOS E GIFTS CARDS PARA AS PLATAFORMAS: GOOGLE PLAY, PLAYSTATION,NINTENDO,XBOX,STEAM, NETFLIX, FREE FIRE, E MUITOS OUTROS.",
+  "large_icon": "/img/uploads/logo.png"
 }
