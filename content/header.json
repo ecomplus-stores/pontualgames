@@ -2,7 +2,8 @@
   "marketing_stripe": {
     "text": "Os Melhores Gift Card com segurança e rapidez!",
     "link": "",
-    "background": "#f20707"
+    "background": "#f0f0f0",
+    "color": "#ff0000"
   },
   "contacts_stripe": {
     "pages": [
