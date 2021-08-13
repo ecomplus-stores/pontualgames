@@ -4,9 +4,9 @@
   "primary_color": "#ca0000",
   "theme": {
     "bootswatch": "_",
-    "custom": "clean-gray"
+    "custom": "clean-dark"
   },
-  "bg_color": "#030303",
+  "bg_color": "#ffffff",
   "repository": "ecomplus-stores/pontualgames",
   "logo": "/img/uploads/logo.png",
   "name": "Pontual Games",
