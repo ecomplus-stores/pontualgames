@@ -2,4 +2,13 @@
 // menu background
 #menu {
   background-image: linear-gradient(#fff, #dcdcdc);
+  a {
+    color: #000
+  }
+}
+// header
+.header {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
 }
