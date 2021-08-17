@@ -17,12 +17,6 @@
   },
   "categories_list": {
     "featured": [
-      "/playstation?PLAYSTATION",
-      "/xbox?XBOX",
-      "/nintendo?NINTENDO",
-      "/google-play?GOOGLE PLAY",
-      "/pc?PC",
-      "/servicos-e-entretenimento?SERVIÇOS E ENTRETENIMENTO"
     ],
     "random": 6,
     "full_width": true
