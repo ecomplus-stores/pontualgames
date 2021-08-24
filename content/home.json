@@ -57,7 +57,7 @@
       "limit": 4,
       "page": 1,
       "collection_id": "61159750cfbcd970597c659b:categories:NINTENDO:/nintendo/",
-      "sort": "sales"
+      "sort": "slug"
     },
     {
       "type": "collection-shelf",
