@@ -1,4 +1,8 @@
 // Add your custom CSS here.
+// font
+body, h1, h2, h3, h4, h5, h6, span, em, small, p, big, strong, b, button, a {
+  font-family: 'Teko', sans-serif;
+}
 // menu background
 #menu {
   background-image: linear-gradient(#fff, #dcdcdc);
@@ -12,6 +16,13 @@
   padding-right: 0 !important;
   padding-left: 0 !important;
   padding-bottom: 0 !important;
+  &__nav {
+    .menu__item-icon {
+      img {
+        margin-bottom: 1rem;
+      }
+    }
+  }
 }
 // full banner
 @media(min-width: 768px) {
