@@ -71,7 +71,8 @@
       "shuffle": false,
       "limit": 1,
       "page": 1,
-      "collection_id": "61159751cfbcd970597c659e:categories:GOOGLE PLAY:/google-play/"
+      "collection_id": "61159763cfbcd970597c65c7:categories:GOOGLE PLAY STORE:/google-play-store/",
+      "sort": "sales"
     }
   ]
 }
