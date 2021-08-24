@@ -62,9 +62,10 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 2,
+      "limit": 4,
       "page": 1,
-      "collection_id": "6115974ecfbcd970597c6596:categories:XBOX:/xbox/"
+      "collection_id": "6115974ecfbcd970597c6596:categories:XBOX:/xbox/",
+      "sort": "sales"
     },
     {
       "type": "collection-shelf",
