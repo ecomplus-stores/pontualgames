@@ -274,18 +274,18 @@ if (header.categories_list) {
   </div>
    <% if (categories && categories.length) { %>
      <div id="menu" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
-      <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
+      <nav class="container header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
        <% categories.forEach(({ slug, name, icon }) => { %>
-         <% if (icon) { %>
-         <span class="menu__item-icon">
-          <img
-            data-src="<%= icon.url %>"
-            alt="<%= icon.alt || name %>"
-            class="lozad"
-          >
-         </span>
-         <% } %>
          <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
+          <% if (icon) { %>
+           <span class="menu__item-icon">
+            <img
+              data-src="<%= icon.url %>"
+              alt="<%= icon.alt || name %>"
+              class="lozad"
+            >
+           </span>
+           <% } %>
            <h4>
               <%= ` ${name} ` %>
            </h4>     
