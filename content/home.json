@@ -70,9 +70,17 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 7,
+      "limit": 4,
       "page": 1,
       "collection_id": "61159763cfbcd970597c65c7:categories:GOOGLE PLAY STORE:/google-play-store/",
+      "sort": "sales"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 4,
+      "page": 1,
+      "collection_id": "6115975fcfbcd970597c65be:categories:CARTÃO RECARGA NETFLIX:/cartao-recarga-netflix/",
       "sort": "sales"
     }
   ]
