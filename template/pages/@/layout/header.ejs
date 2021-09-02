@@ -69,13 +69,83 @@ if (header.categories_list) {
   <div class="top-bar__nav d-none d-md-block">
     <div class="container-fluid">
       <div class="row">
-        <div class="col">
+        <% if (header.contacts_stripe.socials) { %>
+          <div class="col">
+            <% networks.forEach(network => { %>
+              <% if (contacts[network]) { %>
+                <a href="<%= contacts[network] %>" target="_blank" rel="noopener">
+                  <i class="fab fa-<%= network %>"></i>
+                </a>
+              <% } %>
+            <% }) %>
+          </div>
+        <% } %>
+        <div class="col-auto">
           <nav class="top-bar__page-links">
             <% if (header.contacts_stripe.pages) { %>
               <% header.contacts_stripe.pages.forEach(({ link, title }) => { %>
                 <a href="<%= link %>"><%= title %></a>
               <% }) %>
             <% } %>
+            <div class="ico-top-menu rastreio">
+              <a class="trigger-rastreio">
+                <span>Rastreie seu pedido</span>
+              </a>
+              <form class="form-rastreio">
+                <span>Digite o código de rastreio dos correios para acompanhar seu pedido:</span>
+                <div class="wrap">
+                  <input type="text" placeholder="Código">
+                  <button class="rastrear">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="ico-chat">
+              <div class="wrapper">
+                <div class="chat-title">Fale Conosco</div>
+                <div class="tooltip">
+                  <p class="telefone">Telefone</p>
+                  <p class="num">
+                    <% if (contacts.phone) { %>
+                      <a
+                        href="tel:+<%= contacts.phone.replace(/\D/g, '') %>"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <%= contacts.phone %>
+                      </a>
+                    <% } %>
+                  </p>
+                  <p class="divider"></p>
+                  <p class="telefone">Whatsapp</p>
+                  <p class="num">
+                    <% if (contacts.whatsapp) { %>
+                      <a
+                        href="javascript:;"
+                        target="_blank"
+                        rel="noopener"
+                        class="whatsapp-link"
+                        data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>"
+                      >
+                        <%= contacts.whatsapp %>
+                      </a>
+                  <% } %></p>
+                  <p class="divider"></p>
+                  <p class="emailt">E-mail</p>
+                  <p class="emailp">
+                    <% if (contacts.email) { %>
+                      <a href="mailto:<%= contacts.email %>" target="_blank" rel="noopener">
+                          <%= contacts.email %>
+                      </a>
+                    <% } %>
+                  </p>
+                  <p class="divider"></p>
+                  <p class="duvidas">Dúvidas?</p>
+                  <p class="faleconoscotop"><a href="/contato">Fale conosco</a></p>
+                </div>
+              </div>
+            </div>
           </nav>
           <% if (header.contacts_stripe.phone_wpp) { %>
             <% if (contacts.whatsapp) { %>
@@ -102,17 +172,6 @@ if (header.categories_list) {
             <% } %>
           <% } %>
         </div>
-        <% if (header.contacts_stripe.socials) { %>
-          <div class="col-auto">
-            <% networks.forEach(network => { %>
-              <% if (contacts[network]) { %>
-                <a href="<%= contacts[network] %>" target="_blank" rel="noopener">
-                  <i class="fab fa-<%= network %>"></i>
-                </a>
-              <% } %>
-            <% }) %>
-          </div>
-        <% } %>
       </div>
     </div>
   </div>
@@ -137,7 +196,39 @@ if (header.categories_list) {
         </button>
       </div>
 
-      <div class="col col-lg-auto pl-1 pl-md-2 pl-lg-3">
+      <div class="d-md-none col-auto p-0">
+        <div
+          class="header__buttons"
+          role="group"
+          aria-label="<%= _.dictionary('myAccount') %>"
+        >
+
+          <a
+            id="user-button"
+            class="btn btn-lg"
+            role="button"
+            href="/app/#/account/"
+            title="<%= _.dictionary('myAccount') %>"
+          >
+            <img src="/img/uploads/entrar.png" alt="Entrar">
+          </a>
+        </div>
+
+        <div id="login-modal">
+          <!--
+            `LoginModal` should be rendered here:
+            https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/LoginModal.html
+          -->
+        </div>
+        <div id="cart-quickview">
+          <!--
+            `CartQuickview` should be rendered here:
+            https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/CartQuickview.html
+          -->
+        </div>
+      </div>
+
+      <div id="logo-col" class="col col-lg-auto pl-1 pl-md-2 pl-lg-3">
         <a href="/">
           <%- await include('@/layout/inc/logo', { _ }) %>
         </a>
@@ -149,28 +240,15 @@ if (header.categories_list) {
           role="group"
           aria-label="<%= _.dictionary('myAccount') %>"
         >
-          <button
-            class="d-lg-none btn btn-lg"
-            id="mobile-search-btn"
-            type="button"
-            data-toggle="collapse"
-            data-target="#search-bar"
-            aria-expanded="true"
-            aria-controls="search-bar"
-            aria-controls="search-bar"
-            title="<%= _.dictionary('searchProducts') %>"
-          >
-            <i class="fas fa-search"></i>
-          </button>
 
           <a
             id="user-button"
-            class="btn btn-lg"
+            class="btn btn-lg d-none d-md-inline"
             role="button"
             href="/app/#/account/"
             title="<%= _.dictionary('myAccount') %>"
           >
-            <i class="fas fa-user"></i>
+            <img src="/img/uploads/entrar.png" alt="Entrar">
           </a>
           <a
             id="cart-button"
@@ -179,7 +257,7 @@ if (header.categories_list) {
             href="/app/#/cart"
             title="<%= _.dictionary('openCart') %>"
           >
-            <i class="fas fa-shopping-bag"></i>
+            <img src="/img/uploads/carrinho-de-compras.png" alt="Carrinho de Compras">
             <span id="cart-count" class="badge badge-primary"></span>
           </a>
         </div>
