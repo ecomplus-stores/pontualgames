@@ -330,25 +330,64 @@ if (header.categories_list) {
       <% } %>
     </div>
   </div>
+  <%
+    const categoryParents = _.lodash.groupBy(_.categories, ({ parent }) => {
+      return !parent || !parent.slug ? '_' : parent.slug
+    })
+    const getSubmenuId = slug => `a-${slug.replace(/\//g, '_')}`
+  %>
    <% if (categories && categories.length) { %>
      <div id="menu" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
       <nav class="container header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-       <% categories.forEach(({ slug, name, icon }) => { %>
-         <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
-          <% if (icon) { %>
-           <span class="menu__item-icon">
-            <img
-              data-src="<%= icon.url %>"
-              alt="<%= icon.alt || name %>"
-              class="lozad"
-            >
-           </span>
-           <% } %>
-           <h4>
-              <%= ` ${name} ` %>
-           </h4>     
-         </a>
-       <% }) %>
+        <ul>
+        <% categories.forEach(({ slug, name, icon, _id }) => { %>
+          <li class="<%- categoryParents[slug] ? 'dropdown' : '' %>">
+            <a href="<%= slug %>">
+              <% if (icon) { %>
+               <span class="menu__item-icon">
+                <img
+                  data-src="<%= icon.url %>"
+                  alt="<%= icon.alt || name %>"
+                  class="lozad"
+                >
+               </span>
+               <% } %>
+               <h4>
+                  <%= ` ${name} ` %>
+               </h4>
+            </a>
+            <% if (categoryParents[slug]) { %>
+              <ul class="dropdown-menu row mx-0">
+                <% if (categoryParents[slug].length > 8) { %>
+                  <div class="row" id="menu-mega">
+                    <div class="col-12" style="height: 400px">
+                      <% categoryParents[slug].forEach(subcategory => { %>
+                        <li>
+                          <a href="/<%= subcategory.slug %>">
+                            <h4>
+                              <%= subcategory.name %>
+                            </h4>
+                          </a>
+                        </li>
+                      <% }) %>
+                    </div>
+                  </div>
+                <%  } else { %>
+                  <% categoryParents[slug].forEach(subcategory => { %>
+                    <li>
+                      <a href="/<%= subcategory.slug %>">
+                        <h4>
+                          <%= subcategory.name %>
+                        </h4>
+                      </a>
+                    </li>
+                  <% }) %>
+               <%  } %>
+              </ul>
+            <% } %>
+            </li>
+          <% }) %>
+        </ul>
       </nav>
      </div>
    <% } %>
