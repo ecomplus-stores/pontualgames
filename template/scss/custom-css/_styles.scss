@@ -264,6 +264,21 @@ li {
   background: #393939;
 }
 }
+.products-carousel__title a::after {
+  content: ' + Ver mais';
+  padding:  0.5rem;
+  color: #000;
+  font-weight: 400;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+.footer {
+  .order-lg-first h4, .footer__links a, &__contacts ul li, &__contacts ul li a, &__credits span {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff
+  }
+
+} 
 
 //fwr
 .product-card {
