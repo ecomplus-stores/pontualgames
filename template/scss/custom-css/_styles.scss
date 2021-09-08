@@ -153,7 +153,7 @@ a {
   color: #6f0202 !important
 }
 .product-card__buy {
-  z-index: 99999999 !important;
+  // z-index: 99999999 !important;
   button {
     background-color: #53cc65;
     border-color: #53cc65;
@@ -279,19 +279,100 @@ li {
   }
 
 } 
+.breadcrumb-item a {
+  color: #777
+}
+.product {
+  &__name {
+    font-weight: 400;
+    color: #151515;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 21px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 12px;
+  }
+  &__prices {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 12px;
+    .prices__value {
+      font-size: 28px;
+      letter-spacing: -1px;
+      color: #464646;
+      + span {
+        display: flex;
+        flex-direction: column;
+        .prices__installments {
+          font-size: 17px;
+          color: #38b3a3;
+          font-weight: 700;
+        }
+        .prices__discount {
+          order: -1;
+          span {
+            font-size: 28px;
+            color: #38b3a3;
+          }
+          small {
+            &::before {
+              content: "(-5%)";
+              font-size: 14px;
+              color: #547980;
+            }
+          }
+        }
+      }
+    }
+  } 
+  &__sku {
+    display: none;
+  }
+}
+.page--products {
+  h1, h2, h3, h4, h5, h6, span, strong, b, small, p{
+    font-family: 'Montserrat',sans-serif !important;
+  }
+  .product__buy button {
+    border-color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 0 1px 1px #092738;
+    border-radius: 0;
+    color: #fff;
+    letter-spacing: 2px;
+    background-color: #6ed88b;
+    border: none;
+    border-bottom: 3px solid #4b9960;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+}
 
 //fwr
-.product-card {
-  //background: url(https://cdn.ecvol.com/s/www.pontualgames.com.br/uploads/desconto-vista.jpg) no-repeat center bottom;
-  &:hover::after {
-    content:" ";
-    width:100%;
-    border:solid 2px #000;
-    height:100%;
-    background:rgba(255,255,255,.5);
-    background-image:url(/img/uploads/comprar-agora3.png);
-    background-position:center 50%;background-repeat:no-repeat;border-radius:0;position:absolute;left:0;top:0;z-index:98}
-}
+// .product-card {
+//   pointer-events: auto;
+//   cursor: pointer;
+//   //background: url(https://cdn.ecvol.com/s/www.pontualgames.com.br/uploads/desconto-vista.jpg) no-repeat center bottom;
+//   &:hover::after {
+//     content:" ";
+//     width:100%;
+//     border:solid 2px #000;
+//     height:100%;
+//     background:rgba(255,255,255,.5);
+//     background-image:url(/img/uploads/comprar-agora3.png);
+//     background-position:center 50%;
+//     background-repeat:no-repeat;
+//     border-radius:0;
+//     position: absolute;
+//     left:0;
+//     top:0;
+//     pointer-events: auto;
+//     cursor: pointer;
+//   }
+// }
 
 
 .form-rastreio {
