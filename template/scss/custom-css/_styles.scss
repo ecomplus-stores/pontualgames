@@ -324,7 +324,7 @@ li {
     }
   } 
   &__sku {
-    display: none;
+    
   }
 }
 .page--products {
@@ -348,6 +348,9 @@ li {
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
+  }
+  .product__payment.card {
+    background-color: #ebebeb;
   }
 }
 
