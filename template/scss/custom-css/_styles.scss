@@ -382,11 +382,13 @@ li {
 //   }
 // }
 #cart-button i::before {
-  content: " ";
+  content: "";
   background-image: url(/img/uploads/carrinho-de-compras.png);
   display: block;
   position: relative;
-  width: 100%;
+  width: 54px;
+  height: auto;
+  background-size: 100% 100%;
 }
 
 .form-rastreio {
