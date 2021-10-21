@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.87b4f12223fc11fa124fc498fc945020.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.934fa46df8812aaeaab2844fa9dda305.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.5a14cf1e4e94d9d996b809bc6f04c4d2.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.9a90c36881c76cd56c8831823f77c066.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.8708536c2c73eeb04e2df67d9266b51c.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Pontual Games",
+  "short_name": "Pontual Games",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "PONTUAL GAMES LOJA ESPECIALIZADA NA VENDA DE CARTÕES PRÉ PAGOS E GIFTS CARDS PARA AS PLATAFORMAS: GOOGLE PLAY, PLAYSTATION,NINTENDO,XBOX,STEAM, NETFLIX, FREE FIRE, E MUITOS OUTROS.",
+  "background_color": "#ffffff",
+  "theme_color": "#ca0000"
+}
