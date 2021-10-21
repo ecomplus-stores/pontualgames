@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": ".shipping-calculator {\ndisplay: none;\n}",
   "html_head": "",
   "html_body": ""
 }
