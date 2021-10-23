@@ -2,13 +2,145 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>https://pontualgames.netlify.app/cartao-psn-100-reais-playstation-brasil</loc>
+      <loc>https://pontualgames.netlify.app/xbox/</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
+      <priority>0.8</priority>
     </url>
   
     <url>
-      <loc>https://pontualgames.netlify.app/cartao-psn-r-200-reais-playstation-network-brasil</loc>
+      <loc>https://pontualgames.netlify.app/playstation/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/nintendo/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/google-play/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/pc/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartoes-recarga/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartao-psn-brasil/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartao-psn-usa/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/ps4-jogos-digitais/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartao-xbox-brasil/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/assinaturas-xbox/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/jogos-25-digitos-xbox/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartoes-nintendo-eshop/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/jogos-nintendo-switch/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartoes-steam/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartao-recarga-netflix/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartao-blizzard/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartao-league-of-legends/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/garena-free-fire/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/google-play-store/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartao-uber</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartao-ifood</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartao-spotify</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://pontualgames.netlify.app/cartao-psn-100-reais-playstation-brasil</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
     </url>
@@ -21,18 +153,6 @@
   
     <url>
       <loc>https://pontualgames.netlify.app/cartao-psn-r-250-reais-playstation-network-brasil</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-psn-r-160-reais-playstation-network-brasil</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-psn-r-120-reais-playstation-network-brasil</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
     </url>
@@ -237,18 +357,6 @@
   
     <url>
       <loc>https://pontualgames.netlify.app/cartao-psn-r-30-reais-playstation-network-brasil</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-psn-r-180-reais-playstation-network-brasil</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-psn-r-230-reais-playstation-network-brasil</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
     </url>
@@ -533,144 +641,6 @@
       <loc>https://pontualgames.netlify.app/steam-cartao-pre-pago-20-reais</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/xbox/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/playstation/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/nintendo/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/google-play/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/pc/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartoes-recarga/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-psn-brasil/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-psn-usa/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/ps4-jogos-digitais/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-xbox-brasil/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/assinaturas-xbox/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/jogos-25-digitos-xbox/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartoes-nintendo-eshop/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/jogos-nintendo-switch/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartoes-steam/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-recarga-netflix/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-blizzard/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-league-of-legends/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/garena-free-fire/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/google-play-store/</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-uber</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-ifood</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://pontualgames.netlify.app/cartao-spotify</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
     </url>
   
     <url>
