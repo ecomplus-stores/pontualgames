@@ -506,6 +506,12 @@
     </url>
   
     <url>
+      <loc>https://pontualgames.netlify.app/cartao-valorant-r50-reais---1535-valorant-points</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
       <loc>https://pontualgames.netlify.app/xbox/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
